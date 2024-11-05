@@ -1,0 +1,93 @@
+
+.sidebar {
+  width: 250px;
+  height: 90vh;
+  background: linear-gradient(to bottom, #6a00ff, #8b5cf6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  border-top-right-radius: 45px;
+  top: 110px;
+  position: sticky;
+  margin-left: 0px;
+}
+
+/* White text class for dropdown title */
+.white-text {
+  color: white !important; /* Ensure white text */
+}
+
+.white-text:hover {
+  color: black !important; /* Hover color */
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  color: white !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navigation links styling */
+.nav-link-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 18px;
+  color: white !important; /* Force white text */
+  transition: background 0.3s ease;
+}
+
+.nav-link-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: black !important; /* Change to black on hover */
+}
+
+/* Dropdown items */
+.navDropdownItem {
+  color: rgb(0, 0, 0) !important; /* Force dropdown items white */
+}
+
+.navDropdownItem:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: black !important;
+}
+
+/* Icons */
+.icon {
+  margin-right: 10px;
+}
+
+/* User profile section at the bottom */
+.user-profile {
+  text-align: center;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white !important; /* Force white text */
+}
+
+.logout-link {
+  color: rgb(0, 0, 0) !important;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.logout-link:hover {
+  text-decoration: underline;
+  color: black !important;
+}
+

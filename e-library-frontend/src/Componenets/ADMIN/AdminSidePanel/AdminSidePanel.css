@@ -1,0 +1,13 @@
+/* Add this to your CSS file */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  

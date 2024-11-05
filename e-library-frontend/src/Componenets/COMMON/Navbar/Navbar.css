@@ -1,0 +1,5 @@
+.notification-dropdown {
+    max-height: 300px; /* Set a max height */
+    overflow-y: auto;  /* Enable vertical scrolling */
+  }
+  

@@ -1,0 +1,42 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #f8f9fa; /* Light text color */
+  }
+  
+  .footer a {
+    color: #f8f9fa; /* Light color for links */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #adb5bd; /* Slightly lighter on hover */
+    text-decoration: underline;
+  }
+  
+  .footer .btn-outline-primary,
+  .footer .btn-outline-info,
+  .footer .btn-outline-secondary {
+    color: #f8f9fa; /* Light color for button text */
+    border-color: #f8f9fa; /* Light color for button borders */
+  }
+  
+  .footer .btn-outline-primary:hover,
+  .footer .btn-outline-info:hover,
+  .footer .btn-outline-secondary:hover {
+    background-color: #495057; /* Darker background on hover */
+    color: #f8f9fa; /* Keep text color light */
+    border-color: #495057; /* Match the border with hover background */
+  }
+  
+  hr {
+    border-color: rgba(255, 255, 255, 0.2); /* Light horizontal line */
+  }
+  
+  .list-inline-item a {
+    color: #f8f9fa; /* Light color for inline list links */
+  }
+  
+  .list-inline-item a:hover {
+    color: #adb5bd; /* Lighter hover effect for inline links */
+  }
+  
